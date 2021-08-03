@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,4 +30,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.campaign-avatar {
+  right: 160px;
+  top: -50px;
+}
+
+.campaign-title {
+  color: black;
+  weight: bold;
+  font-size: 32px;
+  margin-top: -40px;
+  margin-right: 100px;
+}
+
+.campaign-pay {
+  color: green;
+  weight: bold;
+  font-size: 28px;
+  margin-top: -25px;
+}
+
+.campaign-cover {
+  width: 125px;
+}
+
+.campaign-link {
+
+}
+
+.campaign-download {
+  
 }
