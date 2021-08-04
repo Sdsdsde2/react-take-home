@@ -32,16 +32,19 @@
   }
 }
 
+.Campaigns {
+  margin-top: 25px;
+}
+
 .campaign-avatar {
   right: 160px;
-  top: -50px;
 }
 
 .campaign-title {
   color: black;
   weight: bold;
   font-size: 32px;
-  margin-top: -40px;
+  margin-top: -90px;
   margin-right: 100px;
 }
 
@@ -52,14 +55,28 @@
   margin-top: -25px;
 }
 
+.media-container {
+  display: flex;
+  flex-shrink: 0;
+
+}
+
+.media-slider {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 110px;
+}
+
 .campaign-cover {
   width: 125px;
 }
 
 .campaign-link {
-
+  width: 65px;
+  height: 65px;
 }
 
 .campaign-download {
-  
+  width: 65px;
+  height: 65px;
 }
